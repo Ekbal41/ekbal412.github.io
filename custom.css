@@ -143,6 +143,7 @@ body{
   
   @media (max-width:767px) {
     .contact-clean {
+      margin-top: 100px;
       padding:20px 0;
     }
   }
