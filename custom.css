@@ -24,6 +24,9 @@
 .main-color{
     color:#7068FF;
 }
+.main-bg-color{
+  background-color: #7068FF;
+}
 
 .cborder{
     border: 3px solid #7068FF;
@@ -228,3 +231,4 @@ body{
   margin-top:15px;
   color:#fff;
 }
+
