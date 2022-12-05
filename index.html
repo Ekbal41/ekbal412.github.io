@@ -17,7 +17,7 @@
   </head>
   <body>
      <!-------------------------nav---------------------------------->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand hand csize" href="index.html">ASIF EKBAL</a>
         <button class="navbar-toggler"  data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,6 +30,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link hand csize" href="project-list.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hand csize" href="blog-list.html">Blogs</a>
             </li>
             <li class="nav-item">
               <a class="nav-link hand csize" href="contact.html">Contact</a>
@@ -61,8 +64,8 @@
           <!-------------------------About end------------------------>
            </p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <a type="button" href="project-list.html" class="btn btn-outline none rounded-pill hand" style="background-color:#6c63ff;color:#ffffff;border-color:#6c63ff;">Projects</a>
-            <a type="button" class="btn btn-outline none rounded-pill hand " style="background-color:#6c63ff;color:#ffffff;border-color:#6c63ff;"> Contact Me </a>
+            <a type="button" href="project-list.html" class=" chover btn btn-outline none rounded-pill hand" style="background-color:#6c63ff;color:#ffffff;border-color:#6c63ff;">Projects</a>
+            <a type="button" class=" chover btn btn-outline none rounded-pill hand " style="background-color:#6c63ff;color:#ffffff;border-color:#6c63ff;"> Contact Me </a>
           </div>
         </div>
       </div>
@@ -138,50 +141,69 @@
     <!---------------------------tech end---------------->
     <section class="home-blog bg-sand" data-aos="fade-right">
       <div class="container">
-    
-      <h1 class="pb-2 border-bottom hand fw-bold">Latest Blogs <img src="images/blogs.png" width="50" height="50" loading="lazy"></h1>
+      <h1 class="pb-2 mb-4 border-bottom hand fw-bold">
+        <a type="button" href="project-list.html" class="btn btn-outline none rounded-pill hand" style="background-color:#6c63ff;color:#ffffff;border-color:#6c63ff;"><i class="bi bi-caret-right-fill"></i></a>
+        Latest Projects 
+        <img src="images/blogs.png" width="50" height="50" loading="lazy">
+        
+      </h1><br>
   
       <!-- section title ends -->
-      <div class="row ">
-        <div class="col-md-4 " data-aos="fade-right"><!--card start-->
-          <div class="media blog-media cborder">
-            <div class="media-body">
-              <a href="" class="nodec main-color"><h2 class="mt-0 hand ">Blog post title</h2></a>
-              <p class="hand">
-                Sodales aliquid, in eget lorem ipsum main hun jadev long divan goon.
-                Sodales aliquid, in eget lorem ipsum main hun jadev long divan goon.Sodales aliquid,
-                in eget lorem ipsum main hun jadev long divan goon.
-              </p>
-              <a type="button" class="btn btn-outline none rounded-pill hand " style="background-color:#6c63ff;color:#ffffff;border-color:#6c63ff;"> Read More</a>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 ">
+        <div class="col " data-aos="fade-right">
+          <div class="card shadow-sm cborder">
+        
+            <img src="images/project.jpg" class=" card-img-top" alt="Bootstrap Themes" width="100%" height="225" loading="lazy">
+           
+            <div class="card-body">
+              <h2 class="main-color hand">Project name</h2>
+              <p class="card-text">Lorem Ipsum is simplythe industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-outline none rounded-pill hand chover"><i class="bi bi-github"></i></button>
+                  <button type="button" class="btn btn-outline none rounded-pill hand chover">More</button>
+                </div>
+                <small class="text-muted">Django</small>
+              </div>
             </div>
           </div>
-        </div><!--card end-->
-        <div class="col-md-4 " data-aos="fade-left"><!--card start-->
-          <div class="media blog-media cborder">
-            <div class="media-body">
-              <a href="" class="nodec main-color"><h2 class="mt-0 hand ">Blog post title</h2></a>
-              <p class="hand">
-                Sodales aliquid, in eget lorem ipsum main hun jadev long divan goon.
-                Sodales aliquid, in eget lorem ipsum main hun jadev long divan goon.Sodales aliquid,
-                in eget lorem ipsum main hun jadev long divan goon.
-              </p>
-              <a type="button" class="btn btn-outline none rounded-pill hand " style="background-color:#6c63ff;color:#ffffff;border-color:#6c63ff;"> Read More</a>
+        </div>
+        <div class="col " data-aos="fade-up">
+          <div class="card shadow-sm cborder">
+        
+            <img src="images/project.jpg" class=" card-img-top" alt="Bootstrap Themes" width="100%" height="225" loading="lazy">
+           
+            <div class="card-body">
+              <h2 class="main-color hand">Project name</h2>
+              <p class="card-text">Lorem Ipsum is simplythe industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-outline none rounded-pill hand chover"><i class="bi bi-github"></i></button>
+                  <button type="button" class="btn btn-outline none rounded-pill hand chover">More</button>
+                </div>
+                <small class="text-muted">Django</small>
+              </div>
             </div>
           </div>
-        </div><!--card end-->
-        <div class="col-md-4 " data-aos="fade-right"><!--card start-->
-          <div class="media blog-media cborder">
-            <div class="media-body">
-              <a href="" class="nodec main-color"><h2 class="mt-0 hand ">Blog post title</h2></a>
-              <p class="hand">
-                Sodales aliquid, in eget lorem ipsum main hun jadev long divan goon.
-                Sodales aliquid, in eget lorem ipsum main hun jadev long divan goon.Sodales aliquid,
-                in eget lorem ipsum main hun jadev long divan goon.
-              </p>
-              <a type="button" class="btn btn-outline none rounded-pill hand " style="background-color:#6c63ff;color:#ffffff;border-color:#6c63ff;"> Read More</a>
+        </div>
+        <div class="col " data-aos="fade-left">
+          <div class="card shadow-sm cborder ">
+        
+            <img src="images/project.jpg" class=" card-img-top" alt="Bootstrap Themes" width="100%" height="225" loading="lazy">
+           
+            <div class="card-body">
+              <h2 class="main-color hand">Project name</h2>
+              <p class="card-text">Lorem Ipsum is simplythe industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-outline none rounded-pill hand chover"><i class="bi bi-github"></i></button>
+                  <button type="button" class="btn btn-outline none rounded-pill hand chover">More</button>
+                </div>
+                <small class="text-muted">Django</small>
+              </div>
             </div>
           </div>
-        </div><!--card end-->
+        </div>
         
         
         
@@ -190,9 +212,73 @@
       </div>
     </div>
   </section>
+  <br>
+  <br>
+  
+  <!------------------------------------------------------->
+  <section class="home-blog bg-sand" data-aos="fade-right">
+    <div class="container">
+  
+    <h1 class="pb-2 border-bottom hand fw-bold">
+      <a type="button" href="blog-list.html" class="btn btn-outline none rounded-pill hand" style="background-color:#6c63ff;color:#ffffff;border-color:#6c63ff;"><i class="bi bi-caret-right-fill"></i></a>
+      Latest Blogs 
+      <img src="images/blogs.png" width="50" height="50" loading="lazy">
+     
+    </h1>
+
+    <!-- section title ends -->
+    <div class="row ">
+      <div class="col-md-4 " data-aos="fade-right"><!--card start-->
+        <div class="media blog-media cborder card">
+          <div class="media-body">
+            <a href="" class="nodec main-color"><h2 class="mt-0 hand ">Blog post title</h2></a>
+            <p class="hand">
+              Sodales aliquid, in eget lorem ipsum main hun jadev long divan goon.
+              Sodales aliquid, in eget lorem ipsum main hun jadev long divan goon.Sodales aliquid,
+              in eget lorem ipsum main hun jadev long divan goon.
+            </p>
+            <a type="button" class="btn btn-outline none rounded-pill hand " style="background-color:#6c63ff;color:#ffffff;border-color:#6c63ff;"> Read More</a>
+          </div>
+        </div>
+      </div><!--card end-->
+      <div class="col-md-4 " data-aos="fade-left"><!--card start-->
+        <div class="media blog-media cborder card">
+          <div class="media-body">
+            <a href="" class="nodec main-color"><h2 class="mt-0 hand ">Blog post title</h2></a>
+            <p class="hand">
+              Sodales aliquid, in eget lorem ipsum main hun jadev long divan goon.
+              Sodales aliquid, in eget lorem ipsum main hun jadev long divan goon.Sodales aliquid,
+              in eget lorem ipsum main hun jadev long divan goon.
+            </p>
+            <a type="button" class="btn btn-outline none rounded-pill hand " style="background-color:#6c63ff;color:#ffffff;border-color:#6c63ff;"> Read More</a>
+          </div>
+        </div>
+      </div><!--card end-->
+      <div class="col-md-4 " data-aos="fade-right"><!--card start-->
+        <div class="media blog-media cborder card">
+          <div class="media-body">
+            <a href="" class="nodec main-color"><h2 class="mt-0 hand ">Blog post title</h2></a>
+            <p class="hand">
+              Sodales aliquid, in eget lorem ipsum main hun jadev long divan goon.
+              Sodales aliquid, in eget lorem ipsum main hun jadev long divan goon.Sodales aliquid,
+              in eget lorem ipsum main hun jadev long divan goon.
+            </p>
+            <a type="button" class="btn btn-outline none rounded-pill hand " style="background-color:#6c63ff;color:#ffffff;border-color:#6c63ff;"> Read More</a>
+          </div>
+        </div>
+      </div><!--card end-->
+      
+      
+      
+        
+     
+    </div>
+  </div>
+</section>
+  <!------------------------------------------->
   <div class="px-4 py-5 my-5 text-center" data-aos="fade-up">
-    <img class="d-block mx-auto mb-4" src="images/profile.png" alt="" width="100" height="100">
-    <h1 class="display-5 fw-bold hand main-color">Phone/Email me on</h1>
+    <img class="d-block mx-auto mb-4 pic" src="images/profile.png" alt="" width="100" height="100">
+    <h1 class="display-5 fw-bold hand main-color ">Phone/Email me on</h1>
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4 hand">
            +880 1796900817<br>          
